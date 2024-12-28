@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'Drive Pro',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        //fontFamily: 'Rotunda',
         useMaterial3: true,
       ),
       home: const HomePage(),

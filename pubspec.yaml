@@ -19,7 +19,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.5.3
+  sdk: ^3.4.3
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -35,6 +35,11 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  carousel_slider: ^5.0.0
+  curved_labeled_navigation_bar: ^2.0.5
+  iconsax: ^0.0.8
+  readmore: ^3.0.0
+  
 
 dev_dependencies:
   flutter_test:
@@ -74,10 +79,17 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
+  fonts:
+    - family: Hms Gilbert Serif
+      fonts:
+        - asset: assets/fonts/hms_gilbert_serif/HMSGilbertSerif-Regular.ttf
+    - family: Rotunda
+      fonts:
+        - asset: assets/fonts/rotunda/Fontspring-DEMO-4a-rotunda-regular.otf
+        - asset: assets/fonts/rotunda/Fontspring-DEMO-5a-rotunda-medium.otf
+          weight: 500
+        - asset: assets/fonts/rotunda/Fontspring-DEMO-6a-rotunda-bold.otf
+          weight: 700
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
